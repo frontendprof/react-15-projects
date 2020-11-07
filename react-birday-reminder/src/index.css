@@ -179,6 +179,7 @@ main {
   column-gap: 0.75rem;
   margin-bottom: 1.5rem;
   align-items: center;
+  background-color: rgb(253, 174, 174);
 }
 
 .person img {
@@ -202,13 +203,13 @@ main {
   display: block;
   width: 100%;
   border-color: transparent;
-  background: var(--clr-pink);
+  background: hsl(148, 36%, 52%);
   margin: 2rem auto 0 auto;
   text-transform: capitalize;
   font-size: 1.2rem;
   padding: 0.5rem 0;
   letter-spacing: var(--spacing);
   border-radius: var(--radius);
-  outline: 1px solid rgba(228, 61, 125, 0.9);
+  outline: 1px solid var(--clr-grey-9);
   cursor: pointer;
 }
