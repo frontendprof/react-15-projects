@@ -40,13 +40,13 @@ const questions = [
         id: 7,
         title: 'Can you point out the major differences in Vue js and React js',
         info:
-            'Eveniet consequuntur voluptatibus, repellat ea ratione mollitia fugit magnam nostrum? Placeat officia optio aut, impedit provident pariatur recusandae nostrum ipsum consequatur non necessitatibus quam. Corrupti expedita ipsam natus obcaecati! ',
+            'Eveniet consequuntur voluptatibus, officia optio aut, impedit provident pariatur recusandae nostrum ipsum consequatur non necessitatibus quam. Corrupti expedita ipsam natus obcaecati! ',
     },
     {
         id: 8,
         title: 'Do you prefer coding in C or Python?',
         info:
-            'Tempore ullam soluta, rem dolores distinctio neque doloremque nulla quia eum dignissimos? Aliquam animi doloribus atque quia error eius eum explicabo. Odio nihil consectetur consequuntur maxime reiciendis aperiam laborum obcaecati, dolorem a vero magnam quas culpa ducimus voluptatibus, dolores accusantium architecto consequatur. Odio iure animi hic!',
+            'Tempore ullam soluta, rem dolores distinctio neque doloremque nulla quia eum dignissimos? Aliquam animi doloribus atque quia error eius eum explicabo.',
     },
 ];
 export default questions;
