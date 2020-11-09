@@ -2,6 +2,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import BookList from "./components/BookList";
+import ThemeContextProvider from "./contexts/ThemeContext";
 import "./index.css";
 
 
@@ -9,8 +10,11 @@ import "./index.css";
 export default function App() {
   return (
     <div className="App">
-      <Navbar />
-      <BookList />
+      <ThemeContextProvider>
+        <Navbar />
+        <BookList />
+
+      </ThemeContextProvider>
     </div>
   );
 }
